@@ -25,8 +25,8 @@ fn main() {
         num = num / 2;
       }
 
-      println!("Number: {}", num);
       count = count + 1;
+      println!("Number ({}): {}", count, num);
     }
 
     println!("==== Count: {} ====", count);
